@@ -1,0 +1,188 @@
+-- phpMyAdmin SQL Dump
+-- version 2.11.11.3
+-- http://www.phpmyadmin.net
+--
+-- Host: 68.178.142.2
+-- Generation Time: Mar 06, 2017 at 04:45 PM
+-- Server version: 5.0.96
+-- PHP Version: 5.1.6
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `myth7638`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Campaigns`
+--
+
+CREATE TABLE `Campaigns` (
+  `Id` bigint(20) NOT NULL auto_increment,
+  `UserId` bigint(20) NOT NULL,
+  `Name` varchar(200) NOT NULL,
+  `Setting` varchar(200) NOT NULL,
+  `Game` varchar(200) NOT NULL,
+  `Address` varchar(20) NOT NULL,
+  PRIMARY KEY  (`Id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `Campaigns`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Characters`
+--
+
+CREATE TABLE `Characters` (
+  `Id` bigint(20) NOT NULL auto_increment,
+  `UserId` bigint(20) NOT NULL,
+  `Name` varchar(200) NOT NULL,
+  `Type` varchar(200) NOT NULL,
+  `Race` varchar(200) NOT NULL,
+  `Age` smallint(6) NOT NULL,
+  `Sex` tinyint(1) NOT NULL,
+  `Height` varchar(200) NOT NULL,
+  `Weight` varchar(200) NOT NULL,
+  `Campaign` varchar(200) NOT NULL,
+  PRIMARY KEY  (`Id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `Characters`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Login`
+--
+
+CREATE TABLE `Login` (
+  `Id` bigint(20) NOT NULL auto_increment,
+  `Username` varchar(200) NOT NULL,
+  `Password` varchar(200) NOT NULL,
+  PRIMARY KEY  (`Id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `Login`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Maps`
+--
+
+CREATE TABLE `Maps` (
+  `Id` bigint(20) NOT NULL auto_increment,
+  `UserId` bigint(20) NOT NULL,
+  `CampaignId` bigint(20) NOT NULL,
+  `Name` varchar(200) NOT NULL,
+  PRIMARY KEY  (`Id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `Maps`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Tiles`
+--
+
+CREATE TABLE `Tiles` (
+  `Id` bigint(20) NOT NULL auto_increment,
+  `TileSetId` bigint(20) NOT NULL,
+  `Name` varchar(200) NOT NULL,
+  `Type` varchar(200) NOT NULL,
+  PRIMARY KEY  (`Id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=17 ;
+
+--
+-- Dumping data for table `Tiles`
+--
+
+INSERT INTO `Tiles` VALUES(1, 1, 'Brick', 'Tile');
+INSERT INTO `Tiles` VALUES(2, 1, 'Pillar', 'Piece');
+INSERT INTO `Tiles` VALUES(3, 1, 'Wall', 'Piece');
+INSERT INTO `Tiles` VALUES(4, 2, 'Grass', 'Tile');
+INSERT INTO `Tiles` VALUES(5, 3, 'Stone', 'Tile');
+INSERT INTO `Tiles` VALUES(6, 3, 'Pillar', 'Piece');
+INSERT INTO `Tiles` VALUES(7, 3, 'Wall', 'Piece');
+INSERT INTO `Tiles` VALUES(8, 4, 'Craggle_Rock', 'Tile');
+INSERT INTO `Tiles` VALUES(9, 4, 'Grass', 'Tile');
+INSERT INTO `Tiles` VALUES(10, 4, 'Shingles', 'Tile');
+INSERT INTO `Tiles` VALUES(11, 4, 'Stone', 'Tile');
+INSERT INTO `Tiles` VALUES(12, 4, 'Stucco', 'Tile');
+INSERT INTO `Tiles` VALUES(13, 4, 'Wood_Slats', 'Tile');
+INSERT INTO `Tiles` VALUES(14, 5, 'Bookshelf', 'Piece');
+INSERT INTO `Tiles` VALUES(15, 5, 'Chair', 'Piece');
+INSERT INTO `Tiles` VALUES(16, 5, 'Table', 'Piece');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `TileSets`
+--
+
+CREATE TABLE `TileSets` (
+  `Id` bigint(20) NOT NULL auto_increment,
+  `Name` varchar(200) NOT NULL,
+  PRIMARY KEY  (`Id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;
+
+--
+-- Dumping data for table `TileSets`
+--
+
+INSERT INTO `TileSets` VALUES(1, 'Test_Brick');
+INSERT INTO `TileSets` VALUES(2, 'Test_Grass');
+INSERT INTO `TileSets` VALUES(3, 'Test_Stone');
+INSERT INTO `TileSets` VALUES(4, 'Medieval_Toon');
+INSERT INTO `TileSets` VALUES(5, 'Test_Wood');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `Users`
+--
+
+CREATE TABLE `Users` (
+  `id` bigint(20) NOT NULL auto_increment,
+  `username` varchar(200) NOT NULL,
+  `password` varchar(200) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `Users`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `UserTileSets`
+--
+
+CREATE TABLE `UserTileSets` (
+  `UserId` bigint(20) NOT NULL,
+  `TileSetId` bigint(20) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `UserTileSets`
+--
+

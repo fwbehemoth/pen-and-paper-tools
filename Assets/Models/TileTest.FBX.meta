@@ -1,0 +1,126 @@
+fileFormatVersion: 2
+guid: 83671f85a12ba2140b83167509f2039c
+timeCreated: 1480470896
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Dummy
+    100002: Pillar
+    100004: Test_ Table
+    100006: Test_Bookshelf
+    100008: Test_Chair
+    100010: Tile
+    100012: Tile001
+    100014: Tile002
+    100016: Tile003
+    100018: //RootNode
+    100020: Wall
+    100022: Black Earth Guard for Shapeways
+    400000: Dummy
+    400002: Pillar
+    400004: Test_ Table
+    400006: Test_Bookshelf
+    400008: Test_Chair
+    400010: Tile
+    400012: Tile001
+    400014: Tile002
+    400016: Tile003
+    400018: //RootNode
+    400020: Wall
+    400022: Black Earth Guard for Shapeways
+    2300000: Pillar
+    2300002: Test_ Table
+    2300004: Test_Bookshelf
+    2300006: Test_Chair
+    2300008: Tile
+    2300010: Tile001
+    2300012: Tile002
+    2300014: Tile003
+    2300016: Wall
+    2300018: Black Earth Guard for Shapeways
+    3300000: Pillar
+    3300002: Test_ Table
+    3300004: Test_Bookshelf
+    3300006: Test_Chair
+    3300008: Tile
+    3300010: Tile001
+    3300012: Tile002
+    3300014: Tile003
+    3300016: Wall
+    3300018: Black Earth Guard for Shapeways
+    4300000: Tile
+    4300002: Pillar
+    4300004: Wall
+    4300006: Tile001
+    4300008: Tile002
+    4300010: Tile003
+    4300012: Test_ Table
+    4300014: Test_Chair
+    4300016: Test_Bookshelf
+    4300018: Black Earth Guard for Shapeways
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

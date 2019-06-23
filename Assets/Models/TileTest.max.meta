@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: deb1771faf0551d458646d8471eebf61
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Pillar
+    100002: Tile
+    100004: //RootNode
+    100006: Wall-Diag-L
+    100008: Wall-Diag-R
+    100010: Wall-E
+    100012: Wall-N
+    100014: Wall-S
+    100016: Wall-W
+    100018: Wall
+    100020: Test_ Table
+    100022: Test_Chair
+    100024: Tile001
+    100026: Tile002
+    100028: Tile003
+    100030: Test_Table_Dummy
+    100032: Dummy
+    100034: Box001
+    100036: Test_Bookshelf
+    100038: Black Earth Guard for Shapeways
+    400000: Pillar
+    400002: Tile
+    400004: //RootNode
+    400006: Wall-Diag-L
+    400008: Wall-Diag-R
+    400010: Wall-E
+    400012: Wall-N
+    400014: Wall-S
+    400016: Wall-W
+    400018: Wall
+    400020: Test_ Table
+    400022: Test_Chair
+    400024: Tile001
+    400026: Tile002
+    400028: Tile003
+    400030: Test_Table_Dummy
+    400032: Dummy
+    400034: Box001
+    400036: Test_Bookshelf
+    400038: Black Earth Guard for Shapeways
+    2300000: Pillar
+    2300002: Tile
+    2300004: Wall-Diag-L
+    2300006: Wall-Diag-R
+    2300008: Wall-E
+    2300010: Wall-N
+    2300012: Wall-S
+    2300014: Wall-W
+    2300016: Wall
+    2300018: Test_ Table
+    2300020: Test_Chair
+    2300022: Tile001
+    2300024: Tile002
+    2300026: Tile003
+    2300028: Box001
+    2300030: Test_Bookshelf
+    2300032: Black Earth Guard for Shapeways
+    3300000: Pillar
+    3300002: Tile
+    3300004: Wall-Diag-L
+    3300006: Wall-Diag-R
+    3300008: Wall-E
+    3300010: Wall-N
+    3300012: Wall-S
+    3300014: Wall-W
+    3300016: Wall
+    3300018: Test_ Table
+    3300020: Test_Chair
+    3300022: Tile001
+    3300024: Tile002
+    3300026: Tile003
+    3300028: Box001
+    3300030: Test_Bookshelf
+    3300032: Black Earth Guard for Shapeways
+    4300000: Tile
+    4300002: Wall-S
+    4300004: Wall-W
+    4300006: Wall-N
+    4300008: Wall-E
+    4300010: Wall-Diag-L
+    4300012: Wall-Diag-R
+    4300014: Pillar
+    4300016: Wall
+    4300018: Tile001
+    4300020: Tile002
+    4300022: Tile003
+    4300024: Test_ Table
+    4300026: Test_Chair
+    4300028: Box001
+    4300030: Test_Bookshelf
+    4300032: Black Earth Guard for Shapeways
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

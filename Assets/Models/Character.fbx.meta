@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 74b8c88b8698d404d9df3af1fb435b25
+timeCreated: 1558985801
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Black Earth Guard for Shapeways
+    100002: Black Earth Priest
+    100004: Camera
+    100006: Camera.001
+    100008: //RootNode
+    100010: Dark Elf Priestess
+    100012: Dark Elf Warrior
+    100014: Dark Elf Wizard
+    100016: Dragonborn Regular Barbarian
+    100018: Dummy
+    100020: Lamp
+    100022: Lamp.001
+    100024: Player
+    100026: Test_Character_Base
+    100028: Test_Enemy
+    100030: 'Test_Player '
+    100032: Tile
+    100034: Tile001
+    100036: Tile002
+    100038: Tile003
+    400000: Black Earth Guard for Shapeways
+    400002: Black Earth Priest
+    400004: Camera
+    400006: Camera.001
+    400008: //RootNode
+    400010: Dark Elf Priestess
+    400012: Dark Elf Warrior
+    400014: Dark Elf Wizard
+    400016: Dragonborn Regular Barbarian
+    400018: Dummy
+    400020: Lamp
+    400022: Lamp.001
+    400024: Player
+    400026: Test_Character_Base
+    400028: Test_Enemy
+    400030: 'Test_Player '
+    400032: Tile
+    400034: Tile001
+    400036: Tile002
+    400038: Tile003
+    2000000: Camera
+    2000002: Camera.001
+    2100000: No Name
+    2100002: 01 - Default
+    2300000: Black Earth Guard for Shapeways
+    2300002: Black Earth Priest
+    2300004: Dark Elf Priestess
+    2300006: Dark Elf Warrior
+    2300008: Dark Elf Wizard
+    2300010: Dragonborn Regular Barbarian
+    2300012: Player
+    2300014: Test_Character_Base
+    2300016: Test_Enemy
+    2300018: 'Test_Player '
+    2300020: Tile
+    2300022: Tile001
+    2300024: Tile002
+    2300026: Tile003
+    3300000: Black Earth Guard for Shapeways
+    3300002: Black Earth Priest
+    3300004: Dark Elf Priestess
+    3300006: Dark Elf Warrior
+    3300008: Dark Elf Wizard
+    3300010: Dragonborn Regular Barbarian
+    3300012: Player
+    3300014: Test_Character_Base
+    3300016: Test_Enemy
+    3300018: 'Test_Player '
+    3300020: Tile
+    3300022: Tile001
+    3300024: Tile002
+    3300026: Tile003
+    4300000: Test_Character_Base
+    4300002: Test_Enemy
+    4300004: 'Test_Player '
+    4300006: Tile
+    4300008: Tile001
+    4300010: Tile002
+    4300012: Tile003
+    4300014: Black Earth Guard for Shapeways
+    4300016: Black Earth Priest
+    4300018: Dark Elf Priestess
+    4300020: Dark Elf Warrior
+    4300022: Dark Elf Wizard
+    4300024: Dragonborn Regular Barbarian
+    4300026: Player
+    10800000: Lamp
+    10800002: Lamp.001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
